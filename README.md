@@ -96,10 +96,21 @@
 #### 6월 30일 
 
  - 언리얼 블루프린트 개발(라이브 세션): 2일차 및 3일차 수업 진도를 따라잡았습니다.
-  - 입력 데이터 중계에 대한 블루프린트: <img width="534" height="152" alt="image" src="https://github.com/user-attachments/assets/818b1980-edd2-438d-8c7b-3daae34e8280" />
-  - 움직임 제어에 대한 블루프린트: <img width="671" height="211" alt="image" src="https://github.com/user-attachments/assets/0ee8824f-f781-476d-85f5-178bbdedeef7" />
-  - 시야 움직임 제어에 대한 블루프린트: <img width="654" height="198" alt="image" src="https://github.com/user-attachments/assets/c709c06c-7e64-421a-b6cf-ec255b3aa8b9" />
-  - 조준에 대한 블루프린트: <img width="1008" height="353" alt="image" src="https://github.com/user-attachments/assets/97421206-59ed-41ee-9f3a-f4c1aa5a3e7a" />
+  - 입력 데이터 중계에 대한 블루프린트: 
+  
+  <img width="534" height="152" alt="image" src="https://github.com/user-attachments/assets/818b1980-edd2-438d-8c7b-3daae34e8280" />
+  
+  - 움직임 제어에 대한 블루프린트: 
+  
+  <img width="671" height="211" alt="image" src="https://github.com/user-attachments/assets/0ee8824f-f781-476d-85f5-178bbdedeef7" />
+  
+  - 시야 움직임 제어에 대한 블루프린트:
+
+  <img width="654" height="198" alt="image" src="https://github.com/user-attachments/assets/c709c06c-7e64-421a-b6cf-ec255b3aa8b9" />
+  
+  - 조준에 대한 블루프린트:
+  
+  <img width="1008" height="353" alt="image" src="https://github.com/user-attachments/assets/97421206-59ed-41ee-9f3a-f4c1aa5a3e7a" />
 
   
  - 게임개발종합반(VOD): 1-8까지 진행했습니다.
