@@ -91,3 +91,17 @@
     초반 최소값과 최대값 문제에서 OutNum을 0으로 초기화하여 상황에 따라 컴파일러 에러가 발생할 수 있었으나, 이에 대하여 발견하고 고민 끝에 첫 입력값 자체를 OutNum에 입력 함으로써 문제를 해결하였다.
   
 - 언리얼 블루프린트 개발: 언리얼 엔진을 설치하고 블루프린트를 활용하는 1일차 수업을 듣고 프로젝트 만드는 법, 팹의 활용 방법, 블루프린트의 활용법에 대하여 배웠다.
+
+
+#### 6월 30일 
+
+ - 언리얼 블루프린트 개발(라이브 세션): 2일차 및 3일차 수업 진도를 따라잡았습니다.
+  - 입력 데이터 중계에 대한 블루프린트: <img width="534" height="152" alt="image" src="https://github.com/user-attachments/assets/818b1980-edd2-438d-8c7b-3daae34e8280" />
+  - 움직임 제어에 대한 블루프린트: <img width="671" height="211" alt="image" src="https://github.com/user-attachments/assets/0ee8824f-f781-476d-85f5-178bbdedeef7" />
+  - 시야 움직임 제어에 대한 블루프린트: <img width="654" height="198" alt="image" src="https://github.com/user-attachments/assets/c709c06c-7e64-421a-b6cf-ec255b3aa8b9" />
+  - 조준에 대한 블루프린트: <img width="1008" height="353" alt="image" src="https://github.com/user-attachments/assets/97421206-59ed-41ee-9f3a-f4c1aa5a3e7a" />
+
+  
+ - 게임개발종합반(VOD): 1-8까지 진행했습니다.
+  - 3인칭 상황에 더 적합한 제어 블루프린트:<img width="802" height="391" alt="image" src="https://github.com/user-attachments/assets/b1e5924c-deff-4983-bbad-d54ad0f5090a" />
+
