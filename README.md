@@ -116,3 +116,29 @@
  - 게임개발종합반(VOD): 1-8까지 진행했습니다.
   - 3인칭 상황에 더 적합한 제어 블루프린트:<img width="802" height="391" alt="image" src="https://github.com/user-attachments/assets/b1e5924c-deff-4983-bbad-d54ad0f5090a" />
 
+
+#### 7월 1일
+
+    - C (라이브세션) : 포인터의 정의 활용법을 들으며 리마인딩 하였고, 더 나아가 포인터와 구조체 및 자료 구조에 대한 내용을 복기할 수 있었습니다.
+
+    복기 내용을 담은 임시 코드:
+
+    typedef struct Node //구조체 선언
+    {
+        int Data;
+        struct Node* Next; //Node 구조체를 가리키는 구조체 포인터
+        
+    } Node;
+
+    void main()
+    {
+        Node* Head = NULL; //NULL 할당을 통한 안정화
+        Node* NewNode = malloc(sizeof(Node)); //동적할당을 통한
+        NewNode->Next = Head; //Head에 다른 Node*가 있었다면 Header 교체, 현재는 NULL임으로 안정화 역할만을 수행
+        Head = NewNode; //Head가 Header를 가리키는 포인터가 되어주는 상황
+    
+    }
+
+    - 언리얼 블루프린트 개발(라이브 세션) : 효과음 설정, AI를 구현하고 해당 AI를 통한 몬스터 구현, UI를 화면에 추가하고 관리하는 방법 중 한 가지를 습득하였습니다.
+
+    - 게임개발종합반(VOD): 1-9까지 진행했으며, 해당 내용을 통하여 액터에 애니메이션을 추가하고 재생하는 경험을 해보았습니다.
