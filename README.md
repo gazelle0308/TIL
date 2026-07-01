@@ -133,7 +133,7 @@
     void main()
     {
         Node* Head = NULL; //NULL 할당을 통한 안정화
-        Node* NewNode = malloc(sizeof(Node)); //동적할당을 통한
+        Node* NewNode = malloc(sizeof(Node)); //동적할당을 통한 Heap메모리에 구조체 생성
         NewNode->Next = Head; //Head에 다른 Node*가 있었다면 Header 교체, 현재는 NULL임으로 안정화 역할만을 수행
         Head = NewNode; //Head가 Header를 가리키는 포인터가 되어주는 상황
     
