@@ -153,7 +153,9 @@
 #### 7월 6일
 
     - C++발제: 해당 발제를 듣고 선 공개된 다음 주 과제를 확인하며 필수 구현 부분에 대하여 분석하고 다음 이미지와 같이 데이터 흐름의 시점에서 이해하였다.
-    ![alt text](image.png)
+
+    <img width="459" height="637" alt="image" src="https://github.com/user-attachments/assets/0f5fd06e-5a9b-424f-a669-e6d9c9dadb90" />
+
 
     - 게임 개발자를 위한 C++ 문법(VOD): 해당 영상을 습득하며 1-3의 영상까지를 활용하여
     다음 주 과제인  Step1을 선 구현 해보았다.
