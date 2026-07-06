@@ -114,7 +114,9 @@
 
   
  - 게임개발종합반(VOD): 1-8까지 진행했다.
-  - 3인칭 상황에 더 적합한 제어 블루프린트:<img width="802" height="391" alt="image" src="https://github.com/user-attachments/assets/b1e5924c-deff-4983-bbad-d54ad0f5090a" />
+  - 3인칭 상황에 더 적합한 제어 블루프린트:
+  
+  <img width="802" height="391" alt="image" src="https://github.com/user-attachments/assets/b1e5924c-deff-4983-bbad-d54ad0f5090a" />
 
 
 #### 7월 1일
@@ -147,3 +149,74 @@
 #### 7월 2일
 
     - 언리얼 블루프린트 개발(라이브 세션) : Main UI의 설정 방법과 UI의 On/Off 방법에 대해 습득 하였으며, 여태까지의 내용을 바탕으로 개별적으로 추가 몬스터 랩터를 추가하였다.
+
+#### 7월 6일
+
+    - C++발제: 해당 발제를 듣고 선 공개된 다음 주 과제를 확인하며 필수 구현 부분에 대하여 분석하고 다음 이미지와 같이 데이터 흐름의 시점에서 이해하였다.
+    ![alt text](image.png)
+
+    - 게임 개발자를 위한 C++ 문법(VOD): 해당 영상을 습득하며 1-3의 영상까지를 활용하여
+    다음 주 과제인  Step1을 선 구현 해보았다.
+
+    -아래는 CharacterSetup.cpp의 전문이다.
+
+    #include "CharacterSetup.h" //각 Step별 모듈화를 위한 헤더 파일의 활용
+
+    int main() //기능 확인을 위한 main문
+    {
+
+        const int SIZE = 4;
+
+        string name;
+        int stat[SIZE] = {0};
+
+        SetupStatus(name, stat);
+        PrintStatus(name, stat);
+
+        return 0;
+
+    }
+
+    void SetupStatus(string& InsertName, int InsertStat[])//referance를 활용하여 모듈화 추구
+    {
+
+        cout << "=================================================" << endl;
+        cout << "[Dungeon Escape RPG]" << endl;
+        cout << "=================================================" << endl;
+        cout << "Input your chracter name: ";
+        getline(cin, InsertName);
+        cout << "Input your character's HP and MP: ";
+        cin >> InsertStat[0] >> InsertStat[1];
+        cout << "Input your character's attack and defense: ";
+        cin >> InsertStat[2] >> InsertStat[3];
+        cout << "=================================================" << endl;
+        //stat[0] = HP, stat[1] = MP, stat[2] = 공격력, stat[3] = 방어력
+        }
+
+        void PrintStatus(const string PrintName, const int PrintStat[])
+    {
+
+        cout << "================================" << endl;
+        cout << PrintName << "'s stats:" << endl;
+        cout << "================================" << endl;
+        cout << "HP : " << PrintStat[0] << " MP : " << PrintStat[1] << endl;
+        cout << "Attack : " << PrintStat[2] << " Defense : " << PrintStat[3] << endl;
+        cout << "================================" << endl;
+
+    }
+
+
+    -아래는 CharacterSetup.h의 전문이다.
+
+    #pragma once
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    void SetupStatus(string& InsertName, int InsertStat[]);
+    void PrintStatus(const string PrintName, const int PrintStat[]);
+
+    -추후로도 이러한 익숙한 내용에 한하여는 각 기능별 필요에 따른 모듈화를 활용하는 연습을 통하여
+    실무에서 활용하기 편한 코드를 작성하는 것을 목표로 할 생각이다.
